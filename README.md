@@ -1,43 +1,46 @@
-# AniBox — Bản phát hành chính thức
+﻿# AniBox — Bản phát hành chính thức
 
-Ứng dụng Android TV xem anime, phim bộ, phim lẻ, kênh truyền hình trực tiếp và kho giải trí 18+ được bảo vệ bằng mã PIN. Repo này là cổng phát hành công khai, chỉ chứa **bản cài đặt** (APK), mã kiểm tra tính toàn vẹn `SHA256SUMS.txt` và `version.json` để app tự động kiểm tra và cập nhật trực tiếp trên TV.
-
----
-
-## Tải về bản cài đặt chuẩn hóa
-
-| Tên file APK | Phiên bản | Tương thích | Tính năng |
-|---|---|---|---|
-| **AniBox-v2.8.0.apk** | 2.8.0 (Build 11) | Android 6.0+ (TV, Box, Fire TV Stick) | **Bản đầy đủ chuẩn hóa duy nhất**: Đầy đủ bộ giải mã ExoPlayer + libVLC (AC3/DTS/EAC3/HEVC 10-bit) + dịch phụ đề AI offline, Top Pill Bar Netflix, Instant Play. |
-
-- Bản phát hành mới nhất: **[Releases](../../releases/latest)**
-- Kiểm tra mã băm bảo mật SHA-256 đối chiếu trong file `SHA256SUMS.txt`.
+Ứng dụng Android TV xem anime, phim bộ, phim lẻ, kênh truyền hình trực tiếp và kho giải trí 18+ được bảo vệ bằng mã PIN. Repo này là cổng phát hành công khai, chỉ chứa **bản cài đặt** (APK), mã kiểm tra tính toàn vẹn SHA256SUMS.txt và ersion.json để app tự động kiểm tra và cập nhật trực tiếp trên TV.
 
 ---
 
-## Hướng dẫn cài đặt lên Android TV / Fire TV bằng Downloader (by AFTVnews)
+## ⚡ CÀI ĐẶT NHANH TRÊN ANDROID TV / FIRE TV (QUA DOWNLOADER)
 
-Ứng dụng **Downloader** là cách nhanh nhất và tiện lợi nhất để cài đặt AniBox trực tiếp trên Android TV mà không cần cắm USB hay máy tính:
+Không cần gõ link dài ngoằng trên remote TV! Bạn chỉ cần nhập đúng **mã số ngắn** (Downloader Short Code) vào app Downloader:
 
-1. **Cài Downloader**: Vào kho ứng dụng trên TV (**Google Play Store** hoặc **Amazon Appstore**), tìm và cài đặt ứng dụng **Downloader**.
+| Phương thức | Mã nhập trên Downloader | Thao tác |
+|---|---|---|
+| **Mã số nhanh (Khuyên dùng)** | **9151756** | Mở **Downloader**, gõ số **9151756** vào ô URL rồi bấm **Go** (tự động đếm ngược 5s và tải ngay) |
+| **Link rút gọn (Dự phòng 1)** | ftv.news/9151756 | Gõ ftv.news/9151756 vào ô URL rồi bấm **Go** |
+| **Link rút gọn (Dự phòng 2)** | 	inyurl.com/anibox-app | Gõ 	inyurl.com/anibox-app vào ô URL rồi bấm **Go** |
+
+### Các bước cài đặt chi tiết:
+1. **Cài Downloader**: Vào kho ứng dụng trên TV (**Google Play Store** hoặc **Amazon Appstore**), tìm và cài đặt app **Downloader** (biểu tượng màu cam của AFTVnews).
 2. **Cấp quyền cài ứng dụng**:
-   - Vào *Cài đặt TV* → *Bảo mật & Hạn chế* (hoặc *Quyền riêng tư*) → *Cài đặt ứng dụng không rõ nguồn gốc* → Bật **Cho phép** (Allow) cho ứng dụng **Downloader**.
+   - Vào *Cài đặt TV* → *Bảo mật & Hạn chế* (hoặc *Ứng dụng & Quyền riêng tư*) → *Cài đặt ứng dụng không rõ nguồn gốc* → Bật **Cho phép** (Allow) cho ứng dụng **Downloader**.
 3. **Tải và cài AniBox**:
-   - Mở ứng dụng **Downloader** trên TV.
-   - Tại ô nhập URL ở trang chủ Downloader, nhập trực tiếp đường dẫn sau:
-     ```text
-     https://github.com/LongLeo287/AniBox-release/releases/latest/download/AniBox-v2.8.0.apk
-     ```
-   - Bấm **Go** để ứng dụng bắt đầu tải file về.
-4. **Cài đặt**:
-   - Sau khi tải xong, màn hình sẽ tự động hiện thông báo cài đặt → chọn **Cài đặt** (Install).
-   - Cài xong chọn **Mở** (Open) để thưởng thức AniBox!
+   - Mở app **Downloader** trên TV.
+   - Tại ô nhập URL/Search ngay trang chủ Downloader, dùng remote gõ đúng mã số: **9151756**.
+   - Bấm **Go**. App sẽ tự động tải file AniBox-v2.8.0.apk về máy.
+   - Sau khi tải xong, chọn **Install** (Cài đặt) → Cài xong chọn **Open** (Mở).
+
+---
+
+## Tải trực tiếp APK (Dành cho máy tính / USB)
+
+| Tên file APK | Phiên bản | Tương thích | Kích thước |
+|---|---|---|---|
+| **AniBox-v2.8.0.apk** | 2.8.0 (Build 11) | Android 6.0+ (TV, Box, Fire TV Stick) | ~258 MB |
+
+- **Link tải trực tiếp**: [Tải AniBox-v2.8.0.apk](https://github.com/LongLeo287/AniBox-release/releases/latest/download/AniBox-v2.8.0.apk)
+- **Bản phát hành mới nhất**: [Releases](../../releases/latest)
+- **Bảo mật**: Đối chiếu mã băm SHA-256 trong file SHA256SUMS.txt.
 
 ---
 
 ## Tự động kiểm tra & Cập nhật phiên bản mới
 
-- AniBox tự động kiểm tra `version.json` khi mở app và hiển thị thông báo khi có bản cập nhật mới.
+- AniBox tự động kiểm tra ersion.json khi mở app và hiển thị thông báo khi có bản cập nhật mới.
 - Người dùng cũng có thể kiểm tra thủ công trong app: **Cài đặt → Cập nhật & dữ liệu → Kiểm tra cập nhật ngay**.
 
 ---
