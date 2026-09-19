@@ -6,13 +6,15 @@
 
 ## ⚡ CÀI ĐẶT NHANH TRÊN ANDROID TV / FIRE TV (QUA DOWNLOADER)
 
-Không cần gõ link dài ngoằng trên remote TV! Bạn chỉ cần nhập đúng **mã số ngắn** (Downloader Short Code) vào app Downloader:
+Không cần gõ link dài ngoằng trên remote TV! Chỉ cần nhập đúng **mã số ngắn vĩnh viễn** vào app Downloader:
 
 | Phương thức | Mã nhập trên Downloader | Thao tác |
 |---|---|---|
-| **Mã số nhanh (Khuyên dùng)** | **9151756** | Mở **Downloader**, gõ số **9151756** vào ô URL rồi bấm **Go** (tự động đếm ngược 5s và tải ngay) |
-| **Link rút gọn (Dự phòng 1)** | ftv.news/9151756 | Gõ ftv.news/9151756 vào ô URL rồi bấm **Go** |
-| **Link rút gọn (Dự phòng 2)** | 	inyurl.com/anibox-app | Gõ 	inyurl.com/anibox-app vào ô URL rồi bấm **Go** |
+| **Mã số vĩnh viễn (Khuyên dùng)** | **3170287** | Mở **Downloader**, gõ đúng số **3170287** vào ô URL rồi bấm **Go** (tự động đếm ngược 5s và luôn tải bản mới nhất) |
+| **Link rút gọn (Dự phòng 1)** | ftv.news/3170287 | Gõ ftv.news/3170287 vào ô URL rồi bấm **Go** |
+| **Link rút gọn (Dự phòng 2)** | 	inyurl.com/anibox-latest | Gõ 	inyurl.com/anibox-latest vào ô URL rồi bấm **Go** |
+
+> 🌟 **Lưu ý**: Mã số **3170287** là **mã vĩnh cửu** (trỏ tới bản phát hành mới nhất trên GitHub). Bất kể sau này AniBox có cập nhật lên phiên bản nào, bạn hay người dùng mới chỉ cần nhập đúng mã này là luôn luôn tải được bản cập nhật mới nhất!
 
 ### Các bước cài đặt chi tiết:
 1. **Cài Downloader**: Vào kho ứng dụng trên TV (**Google Play Store** hoặc **Amazon Appstore**), tìm và cài đặt app **Downloader** (biểu tượng màu cam của AFTVnews).
@@ -20,8 +22,8 @@ Không cần gõ link dài ngoằng trên remote TV! Bạn chỉ cần nhập đ
    - Vào *Cài đặt TV* → *Bảo mật & Hạn chế* (hoặc *Ứng dụng & Quyền riêng tư*) → *Cài đặt ứng dụng không rõ nguồn gốc* → Bật **Cho phép** (Allow) cho ứng dụng **Downloader**.
 3. **Tải và cài AniBox**:
    - Mở app **Downloader** trên TV.
-   - Tại ô nhập URL/Search ngay trang chủ Downloader, dùng remote gõ đúng mã số: **9151756**.
-   - Bấm **Go**. App sẽ tự động tải file AniBox-v2.8.0.apk về máy.
+   - Tại ô nhập URL/Search ngay trang chủ Downloader, dùng remote gõ đúng mã số: **3170287**.
+   - Bấm **Go**. App sẽ tự động tải file AniBox.apk (bản mới nhất) về máy.
    - Sau khi tải xong, chọn **Install** (Cài đặt) → Cài xong chọn **Open** (Mở).
 
 ---
@@ -31,17 +33,18 @@ Không cần gõ link dài ngoằng trên remote TV! Bạn chỉ cần nhập đ
 | Tên file APK | Phiên bản | Tương thích | Kích thước |
 |---|---|---|---|
 | **AniBox-v2.8.0.apk** | 2.8.0 (Build 11) | Android 6.0+ (TV, Box, Fire TV Stick) | ~258 MB |
+| **AniBox.apk** | Bản mới nhất (Auto-update) | Android 6.0+ (TV, Box, Fire TV Stick) | ~258 MB |
 
-- **Link tải trực tiếp**: [Tải AniBox-v2.8.0.apk](https://github.com/LongLeo287/AniBox-release/releases/latest/download/AniBox-v2.8.0.apk)
-- **Bản phát hành mới nhất**: [Releases](../../releases/latest)
+- **Link tải trực tiếp bản mới nhất**: [Tải AniBox.apk](https://github.com/LongLeo287/AniBox-release/releases/latest/download/AniBox.apk)
+- **Bản phát hành đầy đủ**: [Releases](../../releases/latest)
 - **Bảo mật**: Đối chiếu mã băm SHA-256 trong file SHA256SUMS.txt.
 
 ---
 
 ## Tự động kiểm tra & Cập nhật phiên bản mới
 
-- AniBox tự động kiểm tra ersion.json khi mở app và hiển thị thông báo khi có bản cập nhật mới.
-- Người dùng cũng có thể kiểm tra thủ công trong app: **Cài đặt → Cập nhật & dữ liệu → Kiểm tra cập nhật ngay**.
+- AniBox tự động kiểm tra ersion.json khi mở app và hiển thị thông báo khi có bản cập nhật mới. Người dùng đã cài app không cần vào Downloader gõ lại mã, mà cập nhật trực tiếp ngay trong app!
+- Kiểm tra thủ công: **Cài đặt → Cập nhật & dữ liệu → Kiểm tra cập nhật ngay**.
 
 ---
 
