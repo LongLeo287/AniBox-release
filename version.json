@@ -1,0 +1,6 @@
+{
+  "versionCode": 10,
+  "versionName": "2.7.0",
+  "apk": "https://github.com/LongLeo287/AniBox-release/releases/latest/download/AniBox-TV.apk",
+  "notes": "• Thêm phim/TV thường (không chỉ anime) từ KKPhim, NguồnC, CobeTV\n• Kênh TV trực tiếp Việt Nam (iptv-org)\n• Nguồn Motchill (tìm kiếm)\n• Điểm IMDb (OMDb), MAL (Jikan), TMDB gắn thẳng vào trang phim\n• Chọn chất lượng thay vì chọn nguồn khi phát\n• Bố cục cài đặt gọn hơn, bỏ tên nguồn trang trí"
+}
