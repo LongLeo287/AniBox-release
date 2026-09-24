@@ -1,6 +1,6 @@
 {
-  "versionCode": 12,
-  "versionName": "2.8.1",
+  "versionCode": 13,
+  "versionName": "2.9.0",
   "apk": "https://github.com/LongLeo287/AniBox-release/releases/latest/download/AniBox.apk",
-  "notes": "• Khắc phục triệt để lỗi danh mục đè lên bàn phím ảo trên màn hình Tìm kiếm TV.\n• Bàn phím ảo ghim cố định 100%, không bị cuộn hay che khuất.\n• Thanh danh mục chip ngang trực quan chuẩn Netflix / YouTube TV.\n• Phụ đề nguồn và phụ đề rời VTT/SRT/ASS, không tích hợp dịch tự động.\n• Tối ưu điều hướng D-pad 2 chiều mượt mà giữa bàn phím, danh mục và lưới phim."
+  "notes": "• Tích hợp 4 nguồn anime chất lượng cao: AnimeVietSub, AnimeT, Vuighe, CobeTV (bản lồng tiếng, thuyết minh, đa dạng máy chủ).\n• Nâng cấp động cơ AniBox MPV Player với đầy đủ thư viện FFmpeg giải mã mượt mà mọi định dạng audio/video.\n• Tối ưu hiệu năng: Khởi động Home siêu tốc ~2.5s, triệt tiêu hoàn toàn ANR khi tìm kiếm và duyệt D-pad.\n• Các tab chuyên mục (Anime, Phim Rạp, Phim Lẻ, Phim Bộ) có hàng rail riêng biệt, nút Xem tất cả mở lưới cuộn vô tận.\n• Nâng cấp kho 18+ VIP: 10 nguồn toàn cầu (Pornhub, XVideos, XNXX, SpankBang, Hentaiz, TopXX, Viet69, HeoVL, VLXX, Phim Rạp 18+).\n• Khắc phục triệt để lỗi văng app trên Banner nổi bật 18+, sửa lỗi video bị zoom to mất góc hình, hỗ trợ phát HLS ByteCDN trực tiếp."
 }
