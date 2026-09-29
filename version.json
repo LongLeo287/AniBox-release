@@ -1,6 +1,6 @@
 {
-  "versionCode": 14,
-  "versionName": "2.9.1",
+  "versionCode": 15,
+  "versionName": "2.9.2",
   "apk": "https://github.com/LongLeo287/AniBox-release/releases/latest/download/AniBox.apk",
-  "notes": "• Tích hợp 4 nguồn anime chất lượng cao: AnimeVietSub, AnimeT, Vuighe, CobeTV (bản lồng tiếng, thuyết minh, đa dạng máy chủ).\n• Nâng cấp động cơ AniBox MPV Player với đầy đủ thư viện FFmpeg giải mã mượt mà mọi định dạng audio/video.\n• Tối ưu hiệu năng: Khởi động Home siêu tốc ~2.5s, triệt tiêu hoàn toàn ANR khi tìm kiếm và duyệt D-pad.\n• Các tab chuyên mục (Anime, Phim Rạp, Phim Lẻ, Phim Bộ) có hàng rail riêng biệt, nút Xem tất cả mở lưới cuộn vô tận.\n• Nâng cấp kho 18+ VIP: 10 nguồn toàn cầu (Pornhub, XVideos, XNXX, SpankBang, Hentaiz, TopXX, Viet69, HeoVL, VLXX, Phim Rạp 18+).\n• Khắc phục triệt để lỗi văng app trên Banner nổi bật 18+, sửa lỗi video bị zoom to mất góc hình, hỗ trợ phát HLS ByteCDN trực tiếp."
+  "notes": "• Menu mới gọn gàng: tab đang chọn nổi bật màu trắng, tab đang mở có chấm vàng, Hero hòa vào menu không còn đường cắt.\n• Thêm nguồn ViCDN; AnimeVietSub mở tập nhanh hơn; máy Android cũ tự bỏ qua nguồn không phát được.\n• Trình phát: xem trước khi tua, chọn tập theo khoảng cho phim dài (One Piece), nhập số để nhảy tập, không còn treo máy ở phim nhiều tập.\n• Điểm TMDB, lề 48 dp thống nhất toàn app, hàng phim giữ vị trí khi cuộn và khi làm mới.\n• Trailer trên thẻ và Hero không còn hiện quảng cáo YouTube; trailer phủ kín khung.\n• Kho 18+: tự khóa lại và rời kho khi thoát app, bộ lọc Quốc gia / Năm / Sắp xếp, chặn thêm quảng cáo, báo rõ nguồn nào lỗi kèm nút Thử lại.\n• Sửa hàng loạt lỗi D-pad, BACK, lưu tiến độ xem, tua, danh sách tập và bộ nhớ trên box 1 GB."
 }
