@@ -1,6 +1,6 @@
 {
-  "versionCode": 15,
-  "versionName": "2.9.2",
+  "versionCode": 16,
+  "versionName": "2.9.3",
   "apk": "https://github.com/LongLeo287/AniBox-release/releases/latest/download/AniBox.apk",
-  "notes": "• Menu mới gọn gàng: tab đang chọn nổi bật màu trắng, tab đang mở có chấm vàng, Hero hòa vào menu không còn đường cắt.\n• Thêm nguồn ViCDN; AnimeVietSub mở tập nhanh hơn; máy Android cũ tự bỏ qua nguồn không phát được.\n• Trình phát: xem trước khi tua, chọn tập theo khoảng cho phim dài (One Piece), nhập số để nhảy tập, không còn treo máy ở phim nhiều tập.\n• Điểm TMDB, lề 48 dp thống nhất toàn app, hàng phim giữ vị trí khi cuộn và khi làm mới.\n• Trailer trên thẻ và Hero không còn hiện quảng cáo YouTube; trailer phủ kín khung.\n• Kho 18+: tự khóa lại và rời kho khi thoát app, bộ lọc Quốc gia / Năm / Sắp xếp, chặn thêm quảng cáo, báo rõ nguồn nào lỗi kèm nút Thử lại.\n• Sửa hàng loạt lỗi D-pad, BACK, lưu tiến độ xem, tua, danh sách tập và bộ nhớ trên box 1 GB."
+  "notes": "• Trình phát kiểu Netflix: nút Thoát / Phát từ đầu / Tập tiếp theo ở góc trên, OK tạm dừng, trái/phải tua 10 giây kèm dải ảnh xem trước, tạm dừng hiện logo phim và tên tập.\n• Danh sách \"Tiếp theo\" như YouTube dưới thanh điều khiển: các tập kế tiếp, các mùa / OVA / movie, phim liên quan; BACK đóng nhanh.\n• Tập tiếp theo: thẻ đếm ngược gần hết tập, màn hình tập kế tiếp khi hết tập.\n• Truyền hình trực tiếp: chỉ còn hình — OK mở danh sách kênh, lên/xuống đổi kênh; thêm Lịch phát sóng (EPG) các kênh Việt Nam.\n• Lịch chiếu dạng lưới theo ngày và giờ chiếu.\n• Trang chủ và các tab kiểu Netflix: Hero toàn màn hình, trailer nhanh hơn và phủ kín khung, Xem tiếp có tiến độ, nhãn độ tuổi, hàng phim mới năm nay.\n• Trang phim mới: nút gọn bên trái, dải tập ngang, tự phát trailer hoặc tập đang xem.\n• Sửa lỗi mảng đen trên / dưới các tab, lưới lệch, thanh điều khiển không tự ẩn và nhiều lỗi D-pad."
 }
