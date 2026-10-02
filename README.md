@@ -1,54 +1,100 @@
-# AniBox � B?n ph�t h�nh ch�nh th?c
+# AniBox · Android TV
 
-?ng d?ng Android TV xem anime, phim b?, phim l?, k�nh truy?n h�nh tr?c ti?p v� kho gi?i tr� 18+ du?c b?o v? b?ng m� PIN. Repo n�y l� c?ng ph�t h�nh c�ng khai, ch? ch?a **b?n c�i d?t** (APK), m� ki?m tra t�nh to�n v?n SHA256SUMS.txt v� ersion.json d? app t? d?ng ki?m tra v� c?p nh?t tr?c ti?p tr�n TV.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LongLeo287/AniBox/main/img/logo/anibox-lockup-horizontal.png" alt="AniBox" width="360">
+</p>
 
----
+<p align="center">
+  <strong>Anime, phim và truyền hình trực tiếp trên Android TV.</strong><br>
+  Bản repository này chỉ quản lý APK phát hành, checksum và metadata cập nhật.
+</p>
 
-## ? C�I �?T NHANH TR�N ANDROID TV / FIRE TV (QUA DOWNLOADER)
+<p align="center">
+  <a href="https://github.com/LongLeo287/AniBox-release/releases/latest"><img src="https://img.shields.io/github/v/release/LongLeo287/AniBox-release?label=latest%20APK&color=e7b45f" alt="Latest APK"></a>
+  <a href="https://github.com/LongLeo287/AniBox/releases"><img src="https://img.shields.io/github/v/release/LongLeo287/AniBox?label=source&color=6f42c1" alt="Source release"></a>
+  <a href="SHA256SUMS.txt"><img src="https://img.shields.io/badge/SHA--256-verified-2ea44f" alt="SHA-256 verified"></a>
+</p>
 
-Kh�ng c?n g� link d�i ngo?ng tr�n remote TV! Ch? c?n nh?p d�ng **m� s? ng?n vinh vi?n** v�o app Downloader:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LongLeo287/AniBox/main/img/banner/anibox-tv-banner-1280x720.png" alt="AniBox TV" width="720">
+</p>
 
-| Phuong th?c | M� nh?p tr�n Downloader | Thao t�c |
-|---|---|---|
-| **M� s? vinh vi?n (Khuy�n d�ng)** | **3170287** | M? **Downloader**, g� d�ng s? **3170287** v�o � URL r?i b?m **Go** (t? d?ng d?m ngu?c 5s v� lu�n t?i b?n m?i nh?t) |
-| **Link r�t g?n (D? ph�ng 1)** | ftv.news/3170287 | G� ftv.news/3170287 v�o � URL r?i b?m **Go** |
-| **Link r�t g?n (D? ph�ng 2)** | 	inyurl.com/anibox-latest | G� 	inyurl.com/anibox-latest v�o � URL r?i b?m **Go** |
+## Bản mới nhất
 
-> ?? **Luu �**: M� s? **3170287** l� **m� vinh c?u** (tr? t?i b?n ph�t h�nh m?i nh?t tr�n GitHub). B?t k? sau n�y AniBox c� c?p nh?t l�n phi�n b?n n�o, b?n hay ngu?i d�ng m?i ch? c?n nh?p d�ng m� n�y l� lu�n lu�n t?i du?c b?n c?p nh?t m?i nh?t!
+**AniBox 2.9.5 · versionCode 18**
 
-### C�c bu?c c�i d?t chi ti?t:
-1. **C�i Downloader**: V�o kho ?ng d?ng tr�n TV (**Google Play Store** ho?c **Amazon Appstore**), t�m v� c�i d?t app **Downloader** (bi?u tu?ng m�u cam c?a AFTVnews).
-2. **C?p quy?n c�i ?ng d?ng**:
-   - V�o *C�i d?t TV* ? *B?o m?t & H?n ch?* (ho?c *?ng d?ng & Quy?n ri�ng tu*) ? *C�i d?t ?ng d?ng kh�ng r� ngu?n g?c* ? B?t **Cho ph�p** (Allow) cho ?ng d?ng **Downloader**.
-3. **T?i v� c�i AniBox**:
-   - M? app **Downloader** tr�n TV.
-   - T?i � nh?p URL/Search ngay trang ch? Downloader, d�ng remote g� d�ng m� s?: **3170287**.
-   - B?m **Go**. App s? t? d?ng t?i file AniBox.apk (b?n m?i nh?t) v? m�y.
-   - Sau khi t?i xong, ch?n **Install** (C�i d?t) ? C�i xong ch?n **Open** (M?).
+- [Trang release 2.9.5](https://github.com/LongLeo287/AniBox-release/releases/tag/v2.9.5)
+- [Tải AniBox.apk](https://github.com/LongLeo287/AniBox-release/releases/download/v2.9.5/AniBox.apk)
+- [Tải AniBox-v2.9.5.apk](https://github.com/LongLeo287/AniBox-release/releases/download/v2.9.5/AniBox-v2.9.5.apk)
+- [Checksum SHA-256](https://github.com/LongLeo287/AniBox-release/releases/download/v2.9.5/SHA256SUMS.txt)
 
----
+> Hai tên APK trong release là cùng một bản build. `AniBox.apk` là tên ổn định cho cơ chế cập nhật; `AniBox-v2.9.5.apk` giúp nhận biết phiên bản khi tải thủ công.
 
-## T?i tr?c ti?p APK (D�nh cho m�y t�nh / USB)
+## Cài đặt nhanh
 
-| T�n file APK | Phi�n b?n | Tuong th�ch | K�ch thu?c |
-|---|---|---|---|
-| **AniBox-v2.8.0.apk** | 2.8.0 (Build 11) | Android 6.0+ (TV, Box, Fire TV Stick) | ~36 MB |
-| **AniBox.apk** | B?n m?i nh?t (Auto-update) | Android 6.0+ (TV, Box, Fire TV Stick) | ~36 MB |
+### Android TV / Android Box
 
-- **Link t?i tr?c ti?p b?n m?i nh?t**: [T?i AniBox.apk](https://github.com/LongLeo287/AniBox-release/releases/latest/download/AniBox.apk)
-- **B?n ph�t h�nh d?y d?**: [Releases](../../releases/latest)
-- **B?o m?t**: �?i chi?u m� bam SHA-256 trong file SHA256SUMS.txt.
+1. Mở trang [Releases](https://github.com/LongLeo287/AniBox-release/releases/latest) trên máy tính hoặc trình duyệt TV.
+2. Tải `AniBox.apk`.
+3. Cho phép cài ứng dụng từ nguồn bạn dùng trong phần **Bảo mật / Ứng dụng không rõ nguồn gốc**.
+4. Mở file APK và chọn **Install**.
+5. Sau khi cài, có thể tắt lại quyền cài từ nguồn không rõ.
 
----
+### Cài qua ADB
 
-## T? d?ng ki?m tra & C?p nh?t phi�n b?n m?i
+```powershell
+adb install -r -d AniBox.apk
+```
 
-- AniBox t? d?ng ki?m tra ersion.json khi m? app v� hi?n th? th�ng b�o khi c� b?n c?p nh?t m?i. Ngu?i d�ng d� c�i app kh�ng c?n v�o Downloader g� l?i m�, m� c?p nh?t tr?c ti?p ngay trong app!
-- Ki?m tra th? c�ng: **C�i d?t ? C?p nh?t & d? li?u ? Ki?m tra c?p nh?t ngay**.
+Nếu đang nâng cấp từ bản cũ, `-r` giữ dữ liệu ứng dụng. Chỉ cài APK tải từ trang release chính thức của repository này.
 
----
+## Xác minh file tải về
 
-## Luu �
+Windows PowerShell:
 
-- Y�u c?u h? di?u h�nh Android TV 6.0 tr? l�n (API 23+). Android < 7.1 d� du?c t�ch h?p s?n ch?ng ch? s? g?c ISRG Root X1 d? m? k?t n?i HTTPS an to�n.
-- N?i dung video du?c t?ng h?p t? d?ng t? c�c ngu?n c�ng khai; AniBox kh�ng luu tr? hay ph�t t�n b?t k? t?p video n�o tr�n m�y ch? ri�ng.
+```powershell
+Get-FileHash .\AniBox.apk -Algorithm SHA256
+```
+
+Đối chiếu chuỗi hash với [SHA256SUMS.txt](https://github.com/LongLeo287/AniBox-release/releases/download/v2.9.5/SHA256SUMS.txt).
+
+Linux / macOS:
+
+```bash
+sha256sum AniBox.apk
+```
+
+## Cập nhật trong ứng dụng
+
+AniBox đọc metadata cập nhật từ [version.json](version.json) và kiểm tra phiên bản định kỳ. Khi có bản mới, ứng dụng hiển thị thông báo và liên kết tải từ GitHub Releases. Người dùng cũng có thể mở **Cài đặt → Hệ thống & Dữ liệu → Cập nhật ứng dụng** để kiểm tra thủ công.
+
+## Tương thích
+
+- Android TV / Android Box API 23 trở lên
+- Kiến trúc APK phụ thuộc bản build; kiểm tra trang release nếu thiết bị yêu cầu ABI cụ thể
+- Media3/ExoPlayer là player direct chính; một số nguồn có thể phụ thuộc giới hạn mạng, khu vực hoặc chính sách provider
+
+## Ghi chú phát hành
+
+Bản phát hành gồm các cải tiến về:
+
+- Home, hero, rail và điều hướng D-pad;
+- metadata, danh mục, tìm kiếm và artwork;
+- direct playback, subtitle/audio track và fallback nguồn;
+- hiệu năng khởi động, tải dữ liệu và xử lý mạng;
+- cập nhật ứng dụng và kiểm tra checksum.
+
+Xem đầy đủ thay đổi trong [release notes](https://github.com/LongLeo287/AniBox-release/releases).
+
+## Liên kết
+
+- [Mã nguồn AniBox](https://github.com/LongLeo287/AniBox)
+- [Danh sách release và APK](https://github.com/LongLeo287/AniBox-release/releases)
+- [Báo lỗi](https://github.com/LongLeo287/AniBox/issues)
+- [Tài liệu kỹ thuật](https://github.com/LongLeo287/AniBox/tree/main/docs)
+
+## Trách nhiệm
+
+AniBox là ứng dụng client lấy dữ liệu từ các provider bên ngoài. Provider có thể thay đổi, giới hạn địa lý hoặc ngừng hoạt động. Người dùng chịu trách nhiệm tuân thủ điều khoản, bản quyền và pháp luật áp dụng. Không tải APK từ mirror không thuộc hai repository chính thức này.
+
+
