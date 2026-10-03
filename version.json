@@ -2,5 +2,5 @@
   "versionCode": 18,
   "versionName": "2.9.5",
   "apk": "https://github.com/LongLeo287/AniBox-release/releases/latest/download/AniBox.apk",
-  "notes": "Cải thiện Home, hero, rail, điều hướng D-pad, metadata, direct playback, subtitle/audio track, fallback nguồn, hiệu năng tải và cập nhật ứng dụng."
+  "notes": "• Tinh chỉnh Home, Hero, rail và focus để trải nghiệm D-pad trên Android TV rõ ràng và nhất quán hơn.\\n• Cải thiện cách trình bày metadata: logo/title, rating, episode title, trailer và badge trạng thái.\\n• Đồng bộ playback UX cho media input tương thích, subtitle/audio track và web surface khi integration cần.\\n• Cải thiện splash/loading, màn tạm dừng và luồng Tập tiếp theo.\\n• Cải thiện update notification, kiểm tra phiên bản và trạng thái cập nhật trong Settings.\\n• Tối ưu hiệu năng tải, phục hồi khi mạng chập chờn và ổn định khi chuyển giữa các surface/player.\\n• AniBox không kèm phim, kho media dựng sẵn hoặc stream do AniBox host; bản phát hành chỉ chứa ứng dụng."
 }
