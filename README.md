@@ -1,8 +1,8 @@
 <h1 align="center">🎬 AniBox</h1>
 
 <p align="center">
-  <strong>Anime · Movies · Live TV — Android TV</strong><br>
-  Official APK releases
+  <strong>Android TV app focused on UX/UI, navigation and playback experience.</strong><br>
+  Official AniBox APK releases
 </p>
 
 <p align="center">
@@ -19,6 +19,11 @@
   &nbsp;·&nbsp;
   <a href="https://github.com/LongLeo287/AniBox/issues">🐛 Issues</a>
 </p>
+
+---
+
+> **AniBox không cung cấp, host, đóng gói hoặc phân phối phim, series, kênh truyền hình hay kho media có sẵn.**  
+> APK trong repository này chỉ là ứng dụng AniBox. Nội dung/media được sử dụng với ứng dụng, nếu có, nằm ngoài phạm vi phân phối của AniBox.
 
 ---
 
@@ -73,12 +78,12 @@ sha256sum AniBox.apk
 
 ## 🔄 In-app update
 
-AniBox dùng `version.json` để kiểm tra bản mới và trỏ tới APK chính thức trong repository này.
+AniBox dùng `version.json` để kiểm tra bản ứng dụng mới và trỏ tới APK chính thức trong repository này.
 
 <p>
   <img src="https://img.shields.io/badge/STABLE%20URL-AniBox.apk-111111?style=flat-square" alt="Stable APK">
   <img src="https://img.shields.io/badge/CHECKSUM-SHA--256-111111?style=flat-square" alt="SHA-256">
-  <img src="https://img.shields.io/badge/SOURCE-GitHub%20Releases-111111?style=flat-square" alt="GitHub Releases">
+  <img src="https://img.shields.io/badge/APP%20RELEASE-GitHub%20Releases-111111?style=flat-square" alt="GitHub Releases">
 </p>
 
 ---
@@ -92,7 +97,9 @@ AniBox dùng `version.json` để kiểm tra bản mới và trỏ tới APK ch�
 
 ---
 
-<sub>Chỉ tải APK từ repository release chính thức này. Provider bên ngoài có thể thay đổi hoặc giới hạn theo khu vực.</sub>
+<p align="center">
+  <sub><strong>No bundled movies · No built-in media catalog · No AniBox-hosted streams</strong></sub>
+</p>
 
 <p align="center">
   <strong>ANIME FOR A BRIGHTER DAY</strong>
