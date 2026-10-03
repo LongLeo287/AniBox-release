@@ -1,100 +1,99 @@
-# AniBox · Android TV
+<h1 align="center">🎬 AniBox</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LongLeo287/AniBox/main/img/logo/anibox-lockup-horizontal.png" alt="AniBox" width="360">
+  <strong>Anime · Movies · Live TV — Android TV</strong><br>
+  Official APK releases
 </p>
 
 <p align="center">
-  <strong>Anime, phim và truyền hình trực tiếp trên Android TV.</strong><br>
-  Bản repository này chỉ quản lý APK phát hành, checksum và metadata cập nhật.
+  <a href="https://github.com/LongLeo287/AniBox-release/releases/latest"><img src="https://img.shields.io/github/v/release/LongLeo287/AniBox-release?label=Latest&color=e7b45f" alt="Latest release"></a>
+  <img src="https://img.shields.io/badge/Android%20TV-6.0%2B-3DDC84?logo=android&logoColor=white" alt="Android TV 6.0+">
+  <img src="https://img.shields.io/badge/ABI-ARMv7%20%7C%20ARM64-59636e" alt="ARM ABI">
+  <img src="https://img.shields.io/badge/SHA--256-verified-2ea44f" alt="SHA-256">
 </p>
 
 <p align="center">
-  <a href="https://github.com/LongLeo287/AniBox-release/releases/latest"><img src="https://img.shields.io/github/v/release/LongLeo287/AniBox-release?label=latest%20APK&color=e7b45f" alt="Latest APK"></a>
-  <a href="https://github.com/LongLeo287/AniBox/releases"><img src="https://img.shields.io/github/v/release/LongLeo287/AniBox?label=source&color=6f42c1" alt="Source release"></a>
-  <a href="SHA256SUMS.txt"><img src="https://img.shields.io/badge/SHA--256-verified-2ea44f" alt="SHA-256 verified"></a>
+  <a href="https://github.com/LongLeo287/AniBox-release/releases/latest"><strong>⬇ Download latest APK</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/LongLeo287/AniBox">💻 Source</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/LongLeo287/AniBox/issues">🐛 Issues</a>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/LongLeo287/AniBox/main/img/banner/anibox-tv-banner-1280x720.png" alt="AniBox TV" width="720">
-</p>
+---
 
-## Bản mới nhất
+## 🚀 Latest release
 
-**AniBox 2.9.5 · versionCode 18**
+### AniBox 2.9.5
 
-- [Trang release 2.9.5](https://github.com/LongLeo287/AniBox-release/releases/tag/v2.9.5)
-- [Tải AniBox.apk](https://github.com/LongLeo287/AniBox-release/releases/download/v2.9.5/AniBox.apk)
-- [Tải AniBox-v2.9.5.apk](https://github.com/LongLeo287/AniBox-release/releases/download/v2.9.5/AniBox-v2.9.5.apk)
-- [Checksum SHA-256](https://github.com/LongLeo287/AniBox-release/releases/download/v2.9.5/SHA256SUMS.txt)
+`versionCode 18` · `Android 6.0+` · `armeabi-v7a / arm64-v8a`
 
-> Hai tên APK trong release là cùng một bản build. `AniBox.apk` là tên ổn định cho cơ chế cập nhật; `AniBox-v2.9.5.apk` giúp nhận biết phiên bản khi tải thủ công.
+| File | Dùng cho |
+|---|---|
+| **AniBox.apk** | Tên ổn định cho updater và cài đặt thông thường |
+| **AniBox-v2.9.5.apk** | File có version để lưu trữ / tải thủ công |
+| **SHA256SUMS.txt** | Kiểm tra tính toàn vẹn file |
 
-## Cài đặt nhanh
+👉 **[Open AniBox 2.9.5 release](https://github.com/LongLeo287/AniBox-release/releases/tag/v2.9.5)**
 
-### Android TV / Android Box
+---
 
-1. Mở trang [Releases](https://github.com/LongLeo287/AniBox-release/releases/latest) trên máy tính hoặc trình duyệt TV.
-2. Tải `AniBox.apk`.
-3. Cho phép cài ứng dụng từ nguồn bạn dùng trong phần **Bảo mật / Ứng dụng không rõ nguồn gốc**.
-4. Mở file APK và chọn **Install**.
-5. Sau khi cài, có thể tắt lại quyền cài từ nguồn không rõ.
+## 📺 Install
 
-### Cài qua ADB
+1. Tải **AniBox.apk** từ [Latest Release](https://github.com/LongLeo287/AniBox-release/releases/latest).
+2. Cho phép cài ứng dụng từ nguồn đang dùng.
+3. Mở APK → **Install**.
+4. Khi nâng cấp, cài đè bản cũ để giữ dữ liệu.
 
-```powershell
+### ADB
+
+```bash
 adb install -r -d AniBox.apk
 ```
 
-Nếu đang nâng cấp từ bản cũ, `-r` giữ dữ liệu ứng dụng. Chỉ cài APK tải từ trang release chính thức của repository này.
+---
 
-## Xác minh file tải về
+## 🔐 Verify download
 
-Windows PowerShell:
+### Windows PowerShell
 
 ```powershell
 Get-FileHash .\AniBox.apk -Algorithm SHA256
 ```
 
-Đối chiếu chuỗi hash với [SHA256SUMS.txt](https://github.com/LongLeo287/AniBox-release/releases/download/v2.9.5/SHA256SUMS.txt).
-
-Linux / macOS:
+### Linux / macOS
 
 ```bash
 sha256sum AniBox.apk
 ```
 
-## Cập nhật trong ứng dụng
+Đối chiếu kết quả với **SHA256SUMS.txt** trong cùng release.
 
-AniBox đọc metadata cập nhật từ [version.json](version.json) và kiểm tra phiên bản định kỳ. Khi có bản mới, ứng dụng hiển thị thông báo và liên kết tải từ GitHub Releases. Người dùng cũng có thể mở **Cài đặt → Hệ thống & Dữ liệu → Cập nhật ứng dụng** để kiểm tra thủ công.
+---
 
-## Tương thích
+## 🔄 In-app update
 
-- Android TV / Android Box API 23 trở lên
-- Kiến trúc APK phụ thuộc bản build; kiểm tra trang release nếu thiết bị yêu cầu ABI cụ thể
-- Media3/ExoPlayer là player direct chính; một số nguồn có thể phụ thuộc giới hạn mạng, khu vực hoặc chính sách provider
+AniBox dùng `version.json` để kiểm tra bản mới và trỏ tới APK chính thức trong repository này.
 
-## Ghi chú phát hành
+<p>
+  <img src="https://img.shields.io/badge/STABLE%20URL-AniBox.apk-111111?style=flat-square" alt="Stable APK">
+  <img src="https://img.shields.io/badge/CHECKSUM-SHA--256-111111?style=flat-square" alt="SHA-256">
+  <img src="https://img.shields.io/badge/SOURCE-GitHub%20Releases-111111?style=flat-square" alt="GitHub Releases">
+</p>
 
-Bản phát hành gồm các cải tiến về:
+---
 
-- Home, hero, rail và điều hướng D-pad;
-- metadata, danh mục, tìm kiếm và artwork;
-- direct playback, subtitle/audio track và fallback nguồn;
-- hiệu năng khởi động, tải dữ liệu và xử lý mạng;
-- cập nhật ứng dụng và kiểm tra checksum.
+## 🔗 Links
 
-Xem đầy đủ thay đổi trong [release notes](https://github.com/LongLeo287/AniBox-release/releases).
+- 💻 [AniBox source](https://github.com/LongLeo287/AniBox)
+- 📦 [All releases](https://github.com/LongLeo287/AniBox-release/releases)
+- 📚 [Technical docs](https://github.com/LongLeo287/AniBox/tree/main/docs)
+- 🐛 [Report an issue](https://github.com/LongLeo287/AniBox/issues)
 
-## Liên kết
+---
 
-- [Mã nguồn AniBox](https://github.com/LongLeo287/AniBox)
-- [Danh sách release và APK](https://github.com/LongLeo287/AniBox-release/releases)
-- [Báo lỗi](https://github.com/LongLeo287/AniBox/issues)
-- [Tài liệu kỹ thuật](https://github.com/LongLeo287/AniBox/tree/main/docs)
+<sub>Chỉ tải APK từ repository release chính thức này. Provider bên ngoài có thể thay đổi hoặc giới hạn theo khu vực.</sub>
 
-## Trách nhiệm
-
-AniBox là ứng dụng client lấy dữ liệu từ các provider bên ngoài. Provider có thể thay đổi, giới hạn địa lý hoặc ngừng hoạt động. Người dùng chịu trách nhiệm tuân thủ điều khoản, bản quyền và pháp luật áp dụng. Không tải APK từ mirror không thuộc hai repository chính thức này.
-
-
+<p align="center">
+  <strong>ANIME FOR A BRIGHTER DAY</strong>
+</p>
