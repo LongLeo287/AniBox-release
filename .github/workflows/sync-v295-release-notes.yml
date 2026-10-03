@@ -1,0 +1,39 @@
+name: Sync AniBox 2.9.5 release notes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/sync-v295-release-notes.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update v2.9.5 release body
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BODY=$(cat <<'EOF'
+          ## AniBox 2.9.5
+
+          ### ✨ Cải tiến
+          - Tinh chỉnh Home, Hero, rail và focus để trải nghiệm D-pad trên Android TV rõ ràng và nhất quán hơn.
+          - Cải thiện cách trình bày metadata: logo/title, rating, episode title, trailer và badge trạng thái.
+          - Đồng bộ playback UX cho media input tương thích, subtitle/audio track và web surface khi integration cần.
+          - Cải thiện splash/loading, màn tạm dừng và luồng Tập tiếp theo.
+          - Cải thiện update notification, kiểm tra phiên bản và trạng thái cập nhật trong Settings.
+          - Tối ưu hiệu năng tải, phục hồi khi mạng chập chờn và độ ổn định khi chuyển giữa các surface/player.
+
+          ### 📺 Phạm vi AniBox
+          **AniBox không cung cấp, host, đóng gói hoặc phân phối phim, series, kênh truyền hình hay kho media có sẵn.**
+
+          APK trong release này chỉ chứa ứng dụng AniBox, tập trung vào UX/UI, navigation, playback experience, subtitle/audio và media presentation.
+
+          **No bundled movies · No built-in media catalog · No AniBox-hosted streams**
+          EOF
+          )
+          gh api --method PATCH "repos/${GITHUB_REPOSITORY}/releases/400905368" -f body="$BODY"
