@@ -1,0 +1,23 @@
+name: Rewrite AniBox release notes
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/rewrite-release-notes.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  rewrite:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Rewrite historical release notes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .github/scripts/rewrite_release_notes.py
