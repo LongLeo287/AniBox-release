@@ -45,6 +45,24 @@
 
 ## 📺 Install
 
+### Downloader by AFTVnews — mã vĩnh viễn `3170287`
+
+Trên **Android TV / Google TV / Fire TV**, có thể cài AniBox nhanh mà không cần nhập URL GitHub dài:
+
+| Phương thức | Giá trị |
+|---|---|
+| **Downloader code** | **`3170287`** |
+| **Short link** | [`aftv.news/3170287`](https://aftv.news/3170287) |
+| **Direct APK** | [`AniBox.apk`](https://github.com/LongLeo287/AniBox-release/releases/latest/download/AniBox.apk) |
+
+1. Mở **Downloader**.
+2. Nhập **`3170287`** vào ô URL/Search.
+3. Chọn **Go** và cài APK được tải về.
+
+> Mã **`3170287`** được cấu hình để trỏ tới URL ổn định **`releases/latest/download/AniBox.apk`**, nên không cần thay mã khi AniBox phát hành phiên bản mới.
+
+### Tải APK trực tiếp
+
 1. Tải **AniBox.apk** từ [Latest Release](https://github.com/LongLeo287/AniBox-release/releases/latest).
 2. Cho phép cài ứng dụng từ nguồn đang dùng.
 3. Mở APK → **Install**.
