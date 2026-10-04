@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - ".github/workflows/rewrite-release-notes.yml"
+      - ".github/scripts/rewrite_release_notes.py"
 
 permissions:
   contents: write
