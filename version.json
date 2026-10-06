@@ -1,6 +1,9 @@
 {
-  "versionCode": 18,
-  "versionName": "2.9.5",
+  "schemaVersion": 1,
+  "versionCode": 19,
+  "versionName": "2.9.6",
   "apk": "https://github.com/LongLeo287/AniBox-release/releases/latest/download/AniBox.apk",
-  "notes": "• Tinh chỉnh Home, Hero, rail và focus để trải nghiệm D-pad trên Android TV rõ ràng và nhất quán hơn.\\n• Cải thiện cách trình bày metadata: logo/title, rating, episode title, trailer và badge trạng thái.\\n• Đồng bộ playback UX cho media input tương thích, subtitle/audio track và web surface khi integration cần.\\n• Cải thiện splash/loading, màn tạm dừng và luồng Tập tiếp theo.\\n• Cải thiện update notification, kiểm tra phiên bản và trạng thái cập nhật trong Settings.\\n• Tối ưu hiệu năng tải, phục hồi khi mạng chập chờn và ổn định khi chuyển giữa các surface/player.\\n• AniBox không kèm phim, kho media dựng sẵn hoặc stream do AniBox host; bản phát hành chỉ chứa ứng dụng."
+  "sha256": "de8c9d3efdc054add9e6dea0cb09d28d9db8bd4688790592e719794be22f7111",
+  "signerSha256": "4fac74c6808ab2f0da95ea3abe2d4b7727610116dede63eedafa7b4e63f3d9de",
+  "notes": "• Hero mới: chỉ giới thiệu phim chưa xem hoặc có season/tập mới (Xem ngay / Xem season mới / Xem tập mới); trailer 720p–1080p, hiện dần, phim kế trượt vào.\n• Xem ngay: màn chờ đen có logo phim rồi vào thẳng tập cần xem; BACK về đúng tab Trang chủ.\n• Một giao diện trình phát cho mọi cách phát; BACK đóng từng lớp; Tập tiếp theo và Bỏ qua mở đầu cùng một kiểu nút.\n• Ưu tiên phụ đề rời; Tìm phụ đề tiếng Việt có ở mọi trình phát.\n• Logo phim thống nhất trên Hero, trang phim, màn chờ, tạm dừng và kết thúc tập.\n• Trang phim: danh sách tập luôn dưới hàng mùa, Các tập khác nhảy tới tập đang xem.\n• Thanh menu: hộp “Thoát AniBox?”, chấm vàng báo bản mới chỉ trên ⚙, thêm QR, biểu tượng mạng và đồng hồ.\n• Màn mở app mới, màn hình chờ phim, ảnh nền chất lượng cao; chế độ Nhẹ cho box yếu.\n• Sửa treo khi bấm HOME lúc đang xem, văng app khi tự chuyển tập và nhiều lỗi focus.\n• AniBox không kèm phim, kho media dựng sẵn hoặc stream do AniBox host; bản phát hành chỉ chứa ứng dụng."
 }
