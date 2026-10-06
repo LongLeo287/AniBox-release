@@ -29,17 +29,19 @@
 
 ## 🚀 Latest release
 
-### AniBox 2.9.5
+### AniBox 2.9.6
 
-`versionCode 18` · `Android 6.0+` · `armeabi-v7a / arm64-v8a`
+`versionCode 19` · `Android 6.0+` · `armeabi-v7a / arm64-v8a`
 
 | File | Dùng cho |
 |---|---|
 | **AniBox.apk** | Tên ổn định cho updater và cài đặt thông thường |
-| **AniBox-v2.9.5.apk** | File có version để lưu trữ / tải thủ công |
+| **AniBox-v2.9.6.apk** | File có version để lưu trữ / tải thủ công |
 | **SHA256SUMS.txt** | Kiểm tra tính toàn vẹn file |
 
-👉 **[Open AniBox 2.9.5 release](https://github.com/LongLeo287/AniBox-release/releases/tag/v2.9.5)**
+👉 **[Open AniBox 2.9.6 release](https://github.com/LongLeo287/AniBox-release/releases/tag/v2.9.6)**
+
+**Có gì mới:** Hero mới (Xem ngay / Xem season mới / Xem tập mới), màn chờ logo phim khi vào xem, trình phát BACK đóng từng lớp, logo phim thống nhất trên mọi màn, hộp "Thoát AniBox?", chấm báo bản mới trên ⚙, màn mở app mới và nhiều sửa lỗi ổn định. Xem [CHANGELOG](https://github.com/LongLeo287/AniBox/blob/main/CHANGELOG.md).
 
 ---
 
@@ -99,7 +101,7 @@ sha256sum AniBox.apk
 
 ## 🔄 In-app update
 
-AniBox dùng `version.json` để kiểm tra bản ứng dụng mới và trỏ tới APK chính thức trong repository này.
+AniBox dùng `version.json` để kiểm tra bản ứng dụng mới và trỏ tới APK chính thức trong repository này. Từ 2.9.6, ứng dụng chỉ cài bản cập nhật khi SHA-256 của APK và chứng chỉ ký khớp với `version.json`.
 
 <p>
   <img src="https://img.shields.io/badge/STABLE%20URL-AniBox.apk-111111?style=flat-square" alt="Stable APK">
