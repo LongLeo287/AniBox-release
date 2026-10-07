@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "versionCode": 19,
-  "versionName": "2.9.6",
+  "versionCode": 20,
+  "versionName": "2.9.6-hotfix",
   "apk": "https://github.com/LongLeo287/AniBox-release/releases/latest/download/AniBox.apk",
-  "sha256": "de8c9d3efdc054add9e6dea0cb09d28d9db8bd4688790592e719794be22f7111",
+  "sha256": "bff94ad309b2f1144f70279786d57f9bf4bb414eadf14cd15fef26875a1b36ed",
   "signerSha256": "4fac74c6808ab2f0da95ea3abe2d4b7727610116dede63eedafa7b4e63f3d9de",
-  "notes": "• Hero mới: chỉ giới thiệu phim chưa xem hoặc có season/tập mới (Xem ngay / Xem season mới / Xem tập mới); trailer 720p–1080p, hiện dần, phim kế trượt vào.\n• Xem ngay: màn chờ đen có logo phim rồi vào thẳng tập cần xem; BACK về đúng tab Trang chủ.\n• Một giao diện trình phát cho mọi cách phát; BACK đóng từng lớp; Tập tiếp theo và Bỏ qua mở đầu cùng một kiểu nút.\n• Ưu tiên phụ đề rời; Tìm phụ đề tiếng Việt có ở mọi trình phát.\n• Logo phim thống nhất trên Hero, trang phim, màn chờ, tạm dừng và kết thúc tập.\n• Trang phim: danh sách tập luôn dưới hàng mùa, Các tập khác nhảy tới tập đang xem.\n• Thanh menu: hộp “Thoát AniBox?”, chấm vàng báo bản mới chỉ trên ⚙, thêm QR, biểu tượng mạng và đồng hồ.\n• Màn mở app mới, màn hình chờ phim, ảnh nền chất lượng cao; chế độ Nhẹ cho box yếu.\n• Sửa treo khi bấm HOME lúc đang xem, văng app khi tự chuyển tập và nhiều lỗi focus.\n• AniBox không kèm phim, kho media dựng sẵn hoặc stream do AniBox host; bản phát hành chỉ chứa ứng dụng."
+  "notes": "• AI Thuyết minh (AniSub) dùng được trên mọi video, kể cả phim hardsub: AniBox tự tìm phụ đề chữ chạy ngầm và khớp giờ theo tiếng thoại; phụ đề tiếng Anh/Nhật được dịch sang giọng đọc; không có phụ đề nào thì đọc chữ trên hình.\n• AniSub 0.3.0: dịch ngay trên TV, thêm giọng tiếng Anh, tự tải giọng Việt lần đầu; chọn “Ngôn ngữ giọng đọc” trong Cài đặt › AniSub.\n• Cập nhật: mở app khi có bản mới thì cập nhật bắt buộc; đang xem phim chỉ nhắc nhẹ.\n• Logo phim đúng từng mùa, dùng logo tiếng Việt khi có đủ bộ; mọi màn hình luôn có logo hoặc tên phim, màn chờ không còn đen.\n• Tên và mô tả tập tiếng Việt từ TMDB; thông tin phim tự làm mới.\n• Trang phim tự ẩn sau vài giây như Netflix, video nền phát tiếp tập đang xem; trailer Hero không còn bị cắt khung.\n• Trình phát: một sơ đồ phím D-pad cho mọi trình phát; đang tạm dừng bấm BACK là về trang phim; “Các mùa”, “Xem mùa mới”.\n• Hàng bộ sưu tập và Top 10 mới; nhãn chất lượng tự lên HD/FHD/4K; thể loại hiển thị bằng tiếng Việt.\n• Phim Việt gộp thành một bản tiếng Việt; nhiều sửa lỗi ổn định, phông chữ và giấy phép mã nguồn mở.\n• AniBox không kèm phim, kho media dựng sẵn hoặc stream do AniBox host; bản phát hành chỉ chứa ứng dụng."
 }
