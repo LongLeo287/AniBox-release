@@ -29,19 +29,19 @@
 
 ## 🚀 Latest release
 
-### AniBox 2.9.6
+### AniBox 2.9.6-hotfix
 
-`versionCode 19` · `Android 6.0+` · `armeabi-v7a / arm64-v8a`
+`versionCode 20` · `Android 6.0+` · `armeabi-v7a / arm64-v8a`
 
 | File | Dùng cho |
 |---|---|
 | **AniBox.apk** | Tên ổn định cho updater và cài đặt thông thường |
-| **AniBox-v2.9.6.apk** | File có version để lưu trữ / tải thủ công |
+| **AniBox-v2.9.6-hotfix.apk** | File có version để lưu trữ / tải thủ công |
 | **SHA256SUMS.txt** | Kiểm tra tính toàn vẹn file |
 
-👉 **[Open AniBox 2.9.6 release](https://github.com/LongLeo287/AniBox-release/releases/tag/v2.9.6)**
+👉 **[Open AniBox 2.9.6-hotfix release](https://github.com/LongLeo287/AniBox-release/releases/tag/v2.9.6-hotfix)**
 
-**Có gì mới:** Hero mới (Xem ngay / Xem season mới / Xem tập mới), màn chờ logo phim khi vào xem, trình phát BACK đóng từng lớp, logo phim thống nhất trên mọi màn, hộp "Thoát AniBox?", chấm báo bản mới trên ⚙, màn mở app mới và nhiều sửa lỗi ổn định. Xem [CHANGELOG](https://github.com/LongLeo287/AniBox/blob/main/CHANGELOG.md).
+**Có gì mới:** AI Thuyết minh (AniSub 0.3.0) dùng được trên mọi video kể cả phim hardsub — tự tìm phụ đề chạy ngầm, khớp giờ, dịch sang giọng đọc; logo phim đúng từng mùa; tên tập tiếng Việt; trang phim tự ẩn kiểu Netflix; hàng bộ sưu tập và Top 10 mới; cập nhật bắt buộc khi mở app. Xem [CHANGELOG](https://github.com/LongLeo287/AniBox/blob/main/CHANGELOG.md).
 
 ---
 
@@ -101,7 +101,7 @@ sha256sum AniBox.apk
 
 ## 🔄 In-app update
 
-AniBox dùng `version.json` để kiểm tra bản ứng dụng mới và trỏ tới APK chính thức trong repository này. Từ 2.9.6, ứng dụng chỉ cài bản cập nhật khi SHA-256 của APK và chứng chỉ ký khớp với `version.json`.
+AniBox dùng `version.json` để kiểm tra bản ứng dụng mới và trỏ tới APK chính thức trong repository này. Từ 2.9.6, ứng dụng chỉ cài bản cập nhật khi SHA-256 của APK và chứng chỉ ký khớp với `version.json`. Từ 2.9.6-hotfix, có bản mới thì **bắt buộc cập nhật khi mở app** (đang xem chỉ nhắc nhẹ); `"mandatory": false` trong `version.json` chuyển về cập nhật mềm.
 
 <p>
   <img src="https://img.shields.io/badge/STABLE%20URL-AniBox.apk-111111?style=flat-square" alt="Stable APK">
