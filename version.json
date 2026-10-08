@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "versionCode": 20,
-  "versionName": "2.9.6-hotfix",
+  "versionCode": 21,
+  "versionName": "2.9.6-hotfix2",
   "apk": "https://github.com/LongLeo287/AniBox-release/releases/latest/download/AniBox.apk",
-  "sha256": "bff94ad309b2f1144f70279786d57f9bf4bb414eadf14cd15fef26875a1b36ed",
+  "sha256": "a706d83128e6a4d2a520bcf10cab08836c82821f2b5f6e9958a981f0898dc962",
   "signerSha256": "4fac74c6808ab2f0da95ea3abe2d4b7727610116dede63eedafa7b4e63f3d9de",
-  "notes": "• AI Thuyết minh (AniSub) dùng được trên mọi video, kể cả phim hardsub: AniBox tự tìm phụ đề chữ chạy ngầm và khớp giờ theo tiếng thoại; phụ đề tiếng Anh/Nhật được dịch sang giọng đọc; không có phụ đề nào thì đọc chữ trên hình.\n• AniSub 0.3.0: dịch ngay trên TV, thêm giọng tiếng Anh, tự tải giọng Việt lần đầu; chọn “Ngôn ngữ giọng đọc” trong Cài đặt › AniSub.\n• Cập nhật: mở app khi có bản mới thì cập nhật bắt buộc; đang xem phim chỉ nhắc nhẹ.\n• Logo phim đúng từng mùa, dùng logo tiếng Việt khi có đủ bộ; mọi màn hình luôn có logo hoặc tên phim, màn chờ không còn đen.\n• Tên và mô tả tập tiếng Việt từ TMDB; thông tin phim tự làm mới.\n• Trang phim tự ẩn sau vài giây như Netflix, video nền phát tiếp tập đang xem; trailer Hero không còn bị cắt khung.\n• Trình phát: một sơ đồ phím D-pad cho mọi trình phát; đang tạm dừng bấm BACK là về trang phim; “Các mùa”, “Xem mùa mới”.\n• Hàng bộ sưu tập và Top 10 mới; nhãn chất lượng tự lên HD/FHD/4K; thể loại hiển thị bằng tiếng Việt.\n• Phim Việt gộp thành một bản tiếng Việt; nhiều sửa lỗi ổn định, phông chữ và giấy phép mã nguồn mở.\n• AniBox không kèm phim, kho media dựng sẵn hoặc stream do AniBox host; bản phát hành chỉ chứa ứng dụng."
+  "notes": "• Chọn giọng AI Thuyết minh ngay trong Cài đặt › AniSub: giọng Việt mặc định, Ngọc Lan (nữ Bắc), Quang Huy (nam Bắc), giọng Google có sẵn trên máy (cần AniSub 0.4.0, tự cập nhật).\n• Phụ đề cho AI Thuyết minh luôn ưu tiên đúng ngôn ngữ giọng đọc.\n• Logo tiếng Việt dùng cho mọi phim khi có đủ bộ, kể cả phim lẻ và phim một mùa.\n• Hero giữ đúng phim và vị trí khi quay lại bằng BACK; thẻ AnimeT có thể loại; trailer ẩn chú thích nhạc như [âm nhạc], [♪♪].\n• Trạng thái AniSub tự làm mới khi cài hoặc cập nhật AniSub bên ngoài AniBox.\n• AniBox không kèm phim, kho media dựng sẵn hoặc stream do AniBox host; bản phát hành chỉ chứa ứng dụng."
 }
