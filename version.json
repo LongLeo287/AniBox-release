@@ -1,7 +1,7 @@
 {
   "versionCode": 22,
   "versionName": "2.9.6.3",
-  "apk": "https://github.com/LongLeo287/AniBox-release/releases/latest/download/AniBox.apk",
+  "apk": "https://github.com/LongLeo287/AniBox-release/releases/download/v2.9.6.3/AniBox.apk",
   "sha256": "6ec6296e3b59cb88c6a242a9b67a03cf3592f77b3b05c426833f7ca394c2a911",
   "signerSha256": "4fac74c6808ab2f0da95ea3abe2d4b7727610116dede63eedafa7b4e63f3d9de",
   "notes": "Cải thiện sidebar và focus Danh mục Android TV, giữ khung khi cuộn, biểu tượng thể loại nhất quán và bộ lọc thu gọn đúng ngữ cảnh. Bao gồm các sửa lỗi Hero, trailer và AniSub của bản trước."
