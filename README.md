@@ -29,17 +29,17 @@
 
 ## 🚀 Latest release
 
-### AniBox 2.9.6-hotfix2
+### AniBox 2.9.6.3
 
-`versionCode 21` · `Android 6.0+` · `armeabi-v7a / arm64-v8a`
+`versionCode 22` · `Android 6.0+` · `armeabi-v7a / arm64-v8a`
 
 | File | Dùng cho |
 |---|---|
 | **AniBox.apk** | Tên ổn định cho updater và cài đặt thông thường |
-| **AniBox-v2.9.6-hotfix2.apk** | File có version để lưu trữ / tải thủ công |
+| **AniBox-v2.9.6.3.apk** | File có version để lưu trữ / tải thủ công |
 | **SHA256SUMS.txt** | Kiểm tra tính toàn vẹn file |
 
-👉 **[Open AniBox 2.9.6-hotfix2 release](https://github.com/LongLeo287/AniBox-release/releases/tag/v2.9.6-hotfix2)**
+👉 **[Open AniBox 2.9.6.3 release](https://github.com/LongLeo287/AniBox-release/releases/tag/v2.9.6.3)**
 
 **Có gì mới:** chọn giọng AI Thuyết minh trong Cài đặt › AniSub (Ngọc Lan, Quang Huy, giọng Google — AniSub 0.4.0); phụ đề ưu tiên đúng ngôn ngữ giọng đọc; logo tiếng Việt cho mọi phim khi có đủ bộ; Hero giữ phim sau BACK; trailer ẩn chú thích nhạc. Xem [CHANGELOG](https://github.com/LongLeo287/AniBox/blob/main/CHANGELOG.md).
 

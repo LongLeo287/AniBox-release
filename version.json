@@ -1,9 +1,8 @@
 {
-  "schemaVersion": 1,
-  "versionCode": 21,
-  "versionName": "2.9.6-hotfix2",
+  "versionCode": 22,
+  "versionName": "2.9.6.3",
   "apk": "https://github.com/LongLeo287/AniBox-release/releases/latest/download/AniBox.apk",
-  "sha256": "a706d83128e6a4d2a520bcf10cab08836c82821f2b5f6e9958a981f0898dc962",
+  "sha256": "6ec6296e3b59cb88c6a242a9b67a03cf3592f77b3b05c426833f7ca394c2a911",
   "signerSha256": "4fac74c6808ab2f0da95ea3abe2d4b7727610116dede63eedafa7b4e63f3d9de",
-  "notes": "• Chọn giọng AI Thuyết minh ngay trong Cài đặt › AniSub: giọng Việt mặc định, Ngọc Lan (nữ Bắc), Quang Huy (nam Bắc), giọng Google có sẵn trên máy (cần AniSub 0.4.0, tự cập nhật).\n• Phụ đề cho AI Thuyết minh luôn ưu tiên đúng ngôn ngữ giọng đọc.\n• Logo tiếng Việt dùng cho mọi phim khi có đủ bộ, kể cả phim lẻ và phim một mùa.\n• Hero giữ đúng phim và vị trí khi quay lại bằng BACK; thẻ AnimeT có thể loại; trailer ẩn chú thích nhạc như [âm nhạc], [♪♪].\n• Trạng thái AniSub tự làm mới khi cài hoặc cập nhật AniSub bên ngoài AniBox.\n• AniBox không kèm phim, kho media dựng sẵn hoặc stream do AniBox host; bản phát hành chỉ chứa ứng dụng."
+  "notes": "Cải thiện sidebar và focus Danh mục Android TV, giữ khung khi cuộn, biểu tượng thể loại nhất quán và bộ lọc thu gọn đúng ngữ cảnh. Bao gồm các sửa lỗi Hero, trailer và AniSub của bản trước."
 }
